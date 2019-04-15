@@ -3,13 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tugas1github;
+package tugasgithub;
 import java.util.Scanner;
 /**
  *
  * @author AFIFAH NADHIRAH
  */
-public class Tugas1github {
+public class Tugasgithub {
+
     /**
      * @param args the command line arguments
      */
@@ -43,15 +44,9 @@ public class Tugas1github {
             System.out.println("4. Nilai minimum lokal =" + stasioner);
         }
         }
-               
-        
-        
-        
-        
-        
-      
-        
-        
+                
+                
         // TODO code application logic here
     }
+    
 }
