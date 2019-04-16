@@ -28,20 +28,21 @@ public class Tugasgithub {
             Diskriminan*=-1;
             double f = (-b/(2*a));
             double g = (-Math.sqrt(Diskriminan)/(2*a));
-            System.out.println(f+"+"+g+"i"+" dan "+ f+(-g)+"i");
+            System.out.println("2. Akar-akar dari polinomial =" +f+"+"+g+"i"+" dan "+ f+(-g)+"i");
         }
         else{
         System.out.println("2. Akar-akar dari polinomial = " + ((-b)+ Math.sqrt(Math.pow(b,2)- 4*a*c)/(2*a)));
         }
+        System.out.println("3. Titik stasioner =" + (-b/2*a)+","+(stasioner)  ) ;
         if(2*a>0){
-            System.out.println("3. Kecekungan kurva = atas");}
+            System.out.println("4. Kecekungan kurva = atas");}
             else {
-             System.out.println("3. Kecekungan kurva = bawah");}   
+             System.out.println("4. Kecekungan kurva = bawah");}   
         if(a>0){
-            System.out.println("4. Nilai maksimum lokal =" + stasioner);
+            System.out.println("5. Nilai maksimum lokal =" + stasioner);
             }
         else {
-            System.out.println("4. Nilai minimum lokal =" + stasioner);
+            System.out.println("5. Nilai minimum lokal =" + stasioner);
         }
         }
                 
@@ -49,4 +50,4 @@ public class Tugasgithub {
         // TODO code application logic here
     }
     
-}
+
